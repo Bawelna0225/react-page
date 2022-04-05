@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+  }
+  :root{
+    --primary: #2e2e2e;
+    --secondary: #252525;
+    --navbar-color: rgba(32, 32, 32, 0.8);
+    --elem-color: #1b1b1b;
+    --text: #b8b8b8;
+    --accent-color: #ffa600;
+    --shadow-color: rgba(0, 0, 0, 0.719);
+    --scrollbar-color: #222222;
+    --scrollbar-color-hover: #1f1f1f;
+    --scrollbar-track-color: #292929;
+  }
+  body{
+    // background-color: var(--primary);
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    color: var(--text);
+  }

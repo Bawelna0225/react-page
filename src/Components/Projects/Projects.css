@@ -1,0 +1,25 @@
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("https://picsum.photos/2001");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.projects-container .content {
+  width: min(100% - 2rem, 1600px);
+  padding: min(8vw, 100px);
+  border-radius: 8px;
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  background-color: var(--navbar-color);
+  box-shadow: 0px 0px 20px var(--shadow-color);
+}
+.projects-container .content h1 {
+  font-size: 2rem;
+  padding-bottom: 50px;
+  color: var(--accent-color);
+}
+/*# sourceMappingURL=Projects.css.map */

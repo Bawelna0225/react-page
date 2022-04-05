@@ -1,0 +1,2 @@
+.contact-container{display:flex;justify-content:center;align-items:center;min-height:100vh;background-color:var(--secondary)}.contact-container form{display:flex;justify-content:flex-start;align-items:center;flex-direction:column}.contact-container form input,.contact-container form textarea{width:400px;height:40px;background-color:var(--elem-color);border:none}
+/*# sourceMappingURL=Contact.min.css.map */

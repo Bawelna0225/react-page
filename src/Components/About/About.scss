@@ -1,0 +1,25 @@
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    .left-panel, .right-panel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100vh;
+        flex-direction: column;
+        padding: 100px;
+        h1{
+            padding-bottom: 50px;
+            font-size: 1.3rem;
+        }
+    }
+    .left-panel{
+        background-color: var(--secondary);
+    }
+    .right-panel{
+        background-color: var(--elem-color);
+    }
+}

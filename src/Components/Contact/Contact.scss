@@ -1,0 +1,19 @@
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--secondary);
+    form{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        input, textarea{
+            width: 400px;
+            height: 40px;
+            background-color: var(--elem-color);
+            border: none;
+        }
+    }
+}

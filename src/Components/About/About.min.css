@@ -1,0 +1,2 @@
+.about-container{display:flex;justify-content:center;align-items:center;min-height:100vh}.about-container .left-panel,.about-container .right-panel{display:flex;justify-content:center;align-items:center;width:50%;height:100vh;flex-direction:column;padding:100px}.about-container .left-panel h1,.about-container .right-panel h1{padding-bottom:50px;font-size:1.3rem}.about-container .left-panel{background-color:var(--secondary)}.about-container .right-panel{background-color:var(--elem-color)}
+/*# sourceMappingURL=About.min.css.map */
